@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Countdown Timer</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div class="dropdown">
+        <button class="dropbtn">Control</button>
+        <div class="dropdown-content">
+            <button onclick="startTimer()">Play</button>
+            <button onclick="resetTimer()">Reset</button>
+        </div>
+    </div>
+    <hr>
+    <div id="timerInput">
+        <label for="minutes">Minutos:</label>
+        <input type="number" id="minutes" min="1" value="1">
+    </div>
+
+    <div id="countdown">
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url('/media/Base_Temporizador.png');
+    /* Reemplaza 'tu_imagen.jpg' con la ruta de tu imagen */
+    background-size: 100% 100%;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    /* Evita la repetición de la imagen */
+    background-attachment: fixed;
+    /* Fija la imagen de fondo */
+}
+
+#countdown {
+    font-size: 110px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 8px;/
+}
+
+#timerInput {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    bottom: 100%;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown {
+    position: fixed;
+    bottom: 0;
+    right: 20px;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #0fa26f;
+    /* Color de fondo del botón */
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn::after {
+    content: "▲";
+    /* Agregar el icono hacia arriba */
+    margin-left: 5px;
+}
