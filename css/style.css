@@ -3,7 +3,7 @@ html {
     height: 100%;
     margin: 0;
     padding: 0;
-    background-image: url('../media/Base_Temporizador.png');
+    background-image: url('https://github.com/developBDULS/timer-hackathon/blob/main/media/Base_Temporizador.png');
     /* Reemplaza 'tu_imagen.jpg' con la ruta de tu imagen */
     background-size: 100% 100%;
     background-position: center;
