@@ -21,10 +21,10 @@ html {
 }
 
 #countdown {
-    font-size: 110px;
+    font-size: 90px;
     margin-bottom: 20px;
     font-weight: bold;
-    letter-spacing: 8px;/
+    letter-spacing: 5px;/
 }
 
 #timerInput {
